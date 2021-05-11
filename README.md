@@ -14,7 +14,6 @@ Then open up three terminals and run your experiments. eg.
     $ ./experiment.py 2
     $ ./experiment.py 3
 
-And Kyle will do the same for 4, 5 and 6.
 
 When the run has completed, you can should it again by repeating the same command. We want to make a lot of runs.
 
@@ -176,5 +175,3 @@ To compile `core.pyx`, use the following command (you will need to install GCC f
 This will generate `core.so`. Then you can simply use `import core` to import this as usual. You might get warnings about your Python version number, and we might want to figure out how to fix this on Mac OS, though it's not a priority.
 
 We have all agreed to use Python 3.8.
-
-Could everyone try compiling the Cython code on their machines?
