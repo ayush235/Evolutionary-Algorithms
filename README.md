@@ -8,7 +8,7 @@ First, compile the cython code.
 
     $ cythonize -i -3 core.pyx && mv *.so core.so
 
-Then open up three terminals and run your experiments. eg. Ayush will need to run
+Then open up three terminals and run your experiments. eg. 
 
     $ ./experiment.py 1
     $ ./experiment.py 2
@@ -125,7 +125,7 @@ A1. Try to find improvements in evolutionary algorithm. eg. which tournament sty
 
 A2. Figure out how crossover should be done on x (permutation). Did the lectures cover this? There are approaches in the literature. For example we can split the permutation into cycles and choose some of these. Someone needs to figure out which way is best.
 
-[Ayush]A4. Improve the algorithm with weakest replacement instead of random replacement.
+A4. Improve the algorithm with weakest replacement instead of random replacement.
 
 ### Framework extensions (F)
 
